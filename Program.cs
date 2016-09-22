@@ -16,7 +16,7 @@ namespace Neo
                 .AddCommandLine(args)
                 .AddEnvironmentVariables(prefix: "ASPNETCORE_")
                 .Build();
-                            
+
             var host = new WebHostBuilder()
                 .UseConfiguration(config)
                 .UseKestrel()
