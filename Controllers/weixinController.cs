@@ -11,9 +11,9 @@ namespace neo.Controllers
     public class weixinController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public string Index()
         {
-            return View();
+            return "";
         }
         public string token(string signature,string timestamp,string nonce,string echostr)
         {
